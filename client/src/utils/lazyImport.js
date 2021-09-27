@@ -1,0 +1,9 @@
+import * as React from 'react';
+// named imports for React.lazy: https://github.com/facebook/react/issues/14603#issuecomment-726551598
+export const lazyImport = (factory, name) =>
+  Object.create({
+    [name]: React.lazy(() => factory().then((module) => ({ default: module[name] }))),
+  });
+
+// Usage
+// const { Home } = lazyImport(() => import("./Home"), "Home");
