@@ -1,0 +1,4 @@
+{
+  "ignore": ["mocks/*"],
+  "ext": ".js, .json, .yaml"
+}

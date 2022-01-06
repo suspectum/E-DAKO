@@ -1,0 +1,41 @@
+{
+  "name": "edako-money-tracker-api",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "server": "nodemon src/server.js",
+    "data:import": "node src/mocks/seeder.js ",
+    "data:remove": "node src/mocks/seeder.js -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "firebase-admin": "^10.0.1",
+    "googleapis": "^92.0.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "nodemailer": "^6.7.2",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15"
+  }
+}
