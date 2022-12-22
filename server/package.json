@@ -28,7 +28,7 @@
     "firebase-admin": "^10.0.1",
     "googleapis": "^92.0.0",
     "joi": "^17.5.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.1.5",
     "nodemailer": "^6.7.2",
     "swagger-ui-express": "^4.3.0",
