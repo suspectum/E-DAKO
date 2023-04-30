@@ -45,7 +45,7 @@ for (let i = 0; i < 50000; i++) {
     type: type,
     category: category[Math.floor(Math.random() * category.length)].type,
     amount: faker.finance.amount(),
-    date: faker.date.between('2012-01-01', '2022-01-07').toISOString(),
-    created: faker.date.between('2012-01-01', '2022-01-07').toISOString(),
+    date: faker.date.between('2015-01-01', '2023-05-01').toISOString(),
+    created: faker.date.between('2015-01-01', '2023-05-01').toISOString(),
   };
 }

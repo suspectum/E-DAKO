@@ -251,7 +251,7 @@ $ npm start
 
 2. Navigate to [http://localhost:4000/api-docs/](http://localhost:4000/api-docs/)
 
-You can also reach API documentation at [https://edako-budget-tracker.herokuapp.com/api-docs/](https://edako-budget-tracker.herokuapp.com/api-docs/)<br>
+You can also reach API documentation at [https://edako.onrender.com/api-docs/](https://edako.onrender.com/api-docs/)<br>
 Please select production server to make API call.
 
 ![Swagger Api](screenshots/swagger.jpg?raw=true)

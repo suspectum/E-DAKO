@@ -6,7 +6,7 @@ import { store } from 'reducers/store';
 import { SET_ALERT } from 'constants/actionTypes';
 
 const API = axios.create({
-  baseURL: process.env.NODE_ENV === 'production' ? 'https://edako-budget-tracker.herokuapp.com/' : 'http://localhost:4000',
+  baseURL: process.env.NODE_ENV === 'production' ? 'https://edako.onrender.com/' : 'http://localhost:4000',
   withCredentials: true,
 });
 
