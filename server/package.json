@@ -29,7 +29,7 @@
     "googleapis": "^92.0.0",
     "joi": "^17.5.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.5",
+    "mongoose": "^6.11.3",
     "nodemailer": "^6.7.2",
     "swagger-ui-express": "^4.3.0",
     "yamljs": "^0.3.0"
